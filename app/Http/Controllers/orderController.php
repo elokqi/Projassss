@@ -58,6 +58,27 @@ class orderController extends Controller
     public function hapus($id_order){
         DB::table('order_detail')->where('id_order',$id_order)->delete();
 	return redirect('/order');
-}
     }
+    
+    
+    // class orderController extends Controller
+    // {
+    //     public function index()
+    //     {
+    //         // mengambil data dari table guru
+    //         $kode = DB::table('kode_unik')->paginate(10);
+            
+    //         // mengirim data guru ke view index
+    //         return view('index',['kode_unik ' => $kode]);
+    //     }
+    // }
+    // public function index()
+    // {
+    //     // mengambil data dari table guru
+    //     $gurup = DB::table('kode_unik')->paginate(10);
+        
+    //     // mengirim data guru ke view index
+    //     return view('index',['kode_unik' => $kode]);
+    // }
+}
 

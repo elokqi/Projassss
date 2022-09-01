@@ -26,7 +26,7 @@
 
    <ul class="navbar-nav">
      <li class="nav-item active">
-       <a class="nav-link" href="#">Homeeeeeeeee <span class="sr-only">(current)</span></a>
+       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
      </li>
      <li class="nav-item">
        <a class="nav-link" href="#">About Us</a>
@@ -117,13 +117,12 @@
 <div class="bg-light" style="padding-left:50px; padding-right:50px">
     <div class="row">
         <div class="col">
-            <img src="{{ asset('img/logo-sc.png') }}" class="image w-25" alt="..." style="margin-top:50px"> </br>
-            <a class="display-4" style="margin-top:20px; font-family:'poppins' sans-serif; font-weight:bold; color:#85FF00;">WHO </a>
-            <a class="display-4" style="margin-top:20px; font-family:'poppins' sans-serif; font-weight:bold; color:#00000;">  We Are</a>
-            <h4 style="margin-top:10px; font-family:poppins">Create backend in minute while keep productive! </h4>
+            <a class="display-4" style="margin-top:100px; margin-left:50px; font-family:'poppins' sans-serif; font-weight:bold; color:#85FF00;">WHO </a>
+            <a class="display-4" style="margin-top:100px; font-family:'poppins' sans-serif; font-weight:bold; color:#00000;">  We Are</a></br>
+            <p style="margin-top:10px; margin-left:50px;">Kami merupakan badan usaha yang dikelola oleh mahasiswa teknik elektro UM dan bergerak di bidang elektronika dan informatika khususnya jasa servis laptop dan alat elektronik. Pelayanan yang kami sediakan yaitu Jasa Servis laptop (kerusakan hardware maupun software), Jasa Servis Elektronika, Jasa Pembuatan Vandel dan Gantungan kunci akrilik. </p>
         </div>
         <div class="col" style="margin-top:50px;">
-            <img src="{{ asset('img/gambar1.jpg') }}" class="image" alt="..." >
+            <img src="{{ asset('img/logo-sc.png') }}" class="image" alt="..." >
         </div>
     </div>
     <div class="row">
@@ -190,7 +189,7 @@
     </div>
 
     <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
-    <a href="/"> Service Center</a>
+    <a href="/"> Service Center UM</a>
     </div>
     </div>
 
