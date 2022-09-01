@@ -189,7 +189,7 @@
     </div>
 
     <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
-    <a href="/"> Service Center UM</a>
+    <a href="/"> Service Center</a>
     </div>
     </div>
 
