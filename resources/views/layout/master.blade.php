@@ -31,7 +31,7 @@
                         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link" href="#">Service <span class="sr-only">(current)</span></a></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Rent List</a>
@@ -41,16 +41,16 @@
                     </li>
                 </ul>
 
-                <input id="gen" type="submit" value="Tracking Service" class="btn" style="background: #85FF00">
+                <button onclick="window.location.href='/tracking'" class="btn" style="background: #85FF00">Tracking Service</button>
             </div>
         </nav>
     </header>
 
-    <h3> @yield('judul_halaman') </h3>
+    @yield('judul_halaman')
 
     @yield('konten')
 
-    <footer class="fixed-bottom page-footer font-small teal pt-4 bg-dark">
+    <footer class=" page-footer font-small teal pt-4 bg-dark">
         <div class="container-fluid text-center text-md-left">
             <div class="text-light text-center">
                 <b>SERVICE CENTER UM</b>

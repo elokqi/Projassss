@@ -60,7 +60,15 @@ class orderController extends Controller
 	return redirect('/order');
     }
     
-    
+    public function tracking(){
+        $order = DB::table('order_detail')->get();
+    return view('tracking',['order_detail' => $order]);
+    }
+
+    public function tracking2(){
+        $order = DB::table('order_detail')->get();
+    return view('tracking2',['order_detail' => $order]);
+    }
     // class orderController extends Controller
     // {
     //     public function index()

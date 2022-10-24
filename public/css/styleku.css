@@ -43,6 +43,9 @@
   .btn-space {
     margin-right: 5px;
 }
+.box {
+  background: linear-gradient(to right, #000046, #1cb5e0);   
+ }
   .bg-biru{
     /* opacity: 0.4; */
     background-color: #EEEEEE !important;

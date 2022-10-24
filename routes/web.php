@@ -30,6 +30,8 @@ Route::get('/order/hapus/{id_order}',[orderController::class, 'hapus']);
 //update
 Route::get('/order/edit/{id_order}',[orderController::class, 'edit']);
 Route::post('/order/update',[orderController::class, 'update']);
+Route::get('/tracking',[orderController::class, 'tracking']);
+Route::get('/tracking2',[orderController::class, 'tracking2']);
 
 Auth::routes();
 
