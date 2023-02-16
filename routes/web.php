@@ -20,6 +20,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/tracking', function () {
+    return view('tracking');
+});
+
 Route::get('/order',[orderController::class, 'ambil']);
 //tambah data
 Route::get('/order/tambah',[orderController::class, 'tambah']);
