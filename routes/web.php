@@ -24,6 +24,14 @@ Route::get('/tracking', function () {
     return view('tracking');
 });
 
+Route::get('/tracking1', function () {
+    return view('tracking1');
+});
+
+Route::get('/service', function () {
+    return view('service');
+});
+
 Route::get('/order',[orderController::class, 'ambil']);
 //tambah data
 Route::get('/order/tambah',[orderController::class, 'tambah']);

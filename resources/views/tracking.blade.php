@@ -1,8 +1,8 @@
 @extends('layouts.user')
 
 @section('content')
-<div class="" style="padding-left:50px; padding-right:50px; background-image: url('img/tracking.png'); 
-                    background-size: 100% 100%; 
+<div class="" style="padding-left:50px; padding-right:50px; background-image: url('img/tracking.png');
+                    background-size: 100% 100%;
                     width: 1600px;
                     height: 431px;">
     <div class="row">
@@ -11,10 +11,10 @@
         </div>
     </div>
 </div>
-<div class="bg-light" style="padding-left:50px; padding-right:50px">
+<div class="" style="padding-left:50px; padding-right:50px">
     <div class="row">
         <div class="col">
-            <p style="margin-top:20px; 
+            <p style="margin-top:20px;
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 600;
@@ -26,13 +26,13 @@
                 color: #000000;
                 margin-top: 20px;
             ">
-                Masukkan Kode Unik Lalu Klik Cari 
+                Masukkan Kode Unik Lalu Klik Cari
             </p>
         </div>
     </div>
     <form action="" method="get">
         <div class="row d-flex justify-content-center">
-            <div class="input-group" 
+            <div class="input-group"
                 style="width: 941px;
                         height: 69px;
                         background: #FFFFFF;
@@ -46,7 +46,7 @@
         </div>
     </form>
     <div class="row justify-content-center" style="margin-top: 25px; margin-bottom: 150px;">
-        <button type="submit" class="btn btn-primary" 
+        <button type="submit" class="btn btn-primary"
         style="display: flex;
         flex-direction: row;
         justify-content: center;
