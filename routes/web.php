@@ -32,6 +32,10 @@ Route::get('/service', function () {
     return view('service');
 });
 
+Route::get('/book_code', function () {
+    return view('book_code');
+});
+
 Route::get('/order',[orderController::class, 'ambil']);
 //tambah data
 Route::get('/order/tambah',[orderController::class, 'tambah']);
