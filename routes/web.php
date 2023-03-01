@@ -36,6 +36,22 @@ Route::get('/book_code', function () {
     return view('book_code');
 });
 
+Route::get('/peminjaman1', function () {
+    return view('peminjaman1');
+});
+
+Route::get('/peminjaman2', function () {
+    return view('peminjaman2');
+});
+
+Route::get('/peminjaman3', function () {
+    return view('peminjaman3');
+});
+
+Route::get('/peminjaman4', function () {
+    return view('peminjaman4');
+});
+
 Route::get('/order',[orderController::class, 'ambil']);
 //tambah data
 Route::get('/order/tambah',[orderController::class, 'tambah']);

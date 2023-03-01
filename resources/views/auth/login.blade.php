@@ -2,11 +2,9 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" style="margin-bottom: 150px;">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
@@ -70,4 +68,59 @@
         </div>
     </div>
 </div>
+
+<footer class="page-footer font-small teal pt-4 bg-dark">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row text-light">
+
+        <!-- Grid column -->
+        <div class="">
+
+          <!-- Content -->
+          <h5 class="text-uppercase text-center font-weight-bold" style="margin-bottom: 25px;">Service Center UM</h5>
+          <p class="col-md-6" style="text-align: center; margin-left: 25%;"> Badan usaha yang dikelola oleh mahasiswa teknik elektro UM dan bergerak di bidang elektronika dan informatika
+              khususnya jasa servis laptop dan alat elektronik. Pelayanan yang kami sediakan yaitu Jasa Servis laptop
+              (kerusakan hardware maupun software),
+              Jasa Servis Elektronika, Vendor Lighting, Jasa Pembuatan Vandel dan Gantungan kunci akrilik.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+
+          <!-- Content -->
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Text -->
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+
+      <div class="container d-flex justify-content-center py-5">
+        <a type="button" class="btn btn-lg btn-floating" style="background-color: #eeeeee" href="https://instagram.com/service_center_um?igshid=YmMyMTA2M2Y=">
+        <i class="fa fa-instagram" style="color:black"></i>
+        </a>
+        <button type="button" class="btn btn-lg btn-floating mx-2" style="background-color: #eeeeee" href="https://wa.me/+6281234849501">
+        <i class="fa fa-whatsapp" style="color:black"></i>
+        </button>
+      </div>
+
+      <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
+      <a href="/"> Service Center</a>
+      </div>
+      </div>
+
+  </footer>
+  <!-- Footer -->
 @endsection
